@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:orientation="horizontal"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+		 android:layout_width="wrap_content" android:layout_marginRight="10dip"
+		android:layout_height="fill_parent"  android:src="@drawable/bus" 
+		android:layout_gravity="center" android:gravity="center"/>
+	<ViewFlipper android:layout_gravity="center" android:padding="5dip"
+		android:id="@+id/flipper_scrollTitle"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_margin="0.0dip" android:flipInterval="5000"
+		android:layout_weight="1.0">
+		
+		<TextView 
+			android:gravity="center" android:id="@+id/scrollTile_hd"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:text="Thank you for use Bus4Soton"/>
+		<TextView 
+			android:gravity="center" android:id="@+id/scrollTile_hm"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:text="Bus4Soton was presented by Yongkai LIN" />
+	</ViewFlipper>
+</LinearLayout>

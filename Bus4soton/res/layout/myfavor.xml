@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout   
+        android:layout_width="fill_parent"   
+        xmlns:android="http://schemas.android.com/apk/res/android"   
+        android:orientation="vertical"  
+        android:layout_height="wrap_content"   
+        android:id="@+id/MyListItem"   
+        android:paddingBottom="3dip"   
+        android:paddingLeft="10dip">  
+                <TextView   
+                android:layout_height="wrap_content"   
+                android:layout_width="100dip"   
+                android:textColor="#FF7000"
+                android:id="@+id/StationName"   
+                android:textSize="20dip">  
+        </TextView>  
+     <LinearLayout   
+        android:layout_width="fill_parent"   
+        xmlns:android="http://schemas.android.com/apk/res/android"   
+        android:orientation="horizontal"  
+        android:layout_height="wrap_content"   
+        android:id="@+id/MyListItem2"   
+        android:paddingBottom="3dip"   
+        android:paddingLeft="5dip">  
+   		<ImageView    
+               android:layout_width="33dip"    
+               android:layout_height="wrap_content"   
+               android:id="@+id/img">    
+         </ImageView>  
+        
+          <TextView   
+                android:visibility="gone"
+                android:layout_height="wrap_content"   
+                android:layout_width="fill_parent"   
+                android:id="@+id/ItemId"   
+                android:textSize="17dip">  
+        </TextView>
+        
+        <TextView
+				android:textSize="20dip"
+                android:layout_height="wrap_content"   
+                android:layout_width="fill_parent"   
+                android:textColor="#33CCCC"
+                android:id="@+id/ItemText">  
+        </TextView>  
+      </LinearLayout>
+</LinearLayout>  
